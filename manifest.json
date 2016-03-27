@@ -1,0 +1,32 @@
+{
+  "manifest_version":"1",
+  "type":"WebApp",
+  "meta":{
+    "name":"Discord",
+    "version":"1.0",
+    "minimum-overwolf-version": "0.77.4.0",
+    "author":"Bluscream",
+    "icon":"icon.png",
+    "icon_gray":"icon_gray.png",
+    "description":"Discord VoiP Client for Overwolf"
+  },
+  "data": {
+    "start_window":"index",
+    "windows":{
+      "index":{
+        "file":"index.html",
+        "transparent":false,
+        "resizable":true,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 800,
+          "height": 600
+        },
+        "start_position": {
+          "Top": 100,
+          "Left": 200
+        }
+      }
+    },
+  }
+}
